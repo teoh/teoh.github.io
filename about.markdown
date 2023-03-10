@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Thank you for visiting my website. I wish you a pleasant stay.
+Thank you for visiting my website.
 
 # 🔎 Who am I? 
 My name is Mathew, and I work on search algorithms as a Machine Learning Engineer at LinkedIn, based in the San Francisco Bay Area.
