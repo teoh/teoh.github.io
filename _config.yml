@@ -18,22 +18,34 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Mathew Teoh
+title: teoh.github.io
+author: Mathew Teoh
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Machine learning engineer and data scientist. Also Canadian. I work on systems that help
   people find things. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://teoh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: mat_mto
-github_username:  teoh
-linkedin_username: mathewteoh
+
+footer_icons:
+  - username: teoh
+    url: https://github.com/teoh
+    icon: icon-github.svg
+  - username: mat_mto
+    url: https://twitter.com/mat_mto
+    icon: icon-twitter.svg
+  - username: mathewteoh
+    url: https://linkedin.com/in/mathewteoh
+    icon: icon-linkedin.svg
 
 # Build settings
-theme: minima
-# remote_theme: aterenin/minima-reboot
+remote_theme: aterenin/minima-reboot
 plugins:
   - jekyll-feed
+
+minima_reboot:
+  date_format: "%b %-d, %Y"
+  date_format_short: "%b %-d"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
