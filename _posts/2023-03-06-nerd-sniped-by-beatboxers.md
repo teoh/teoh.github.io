@@ -2,6 +2,7 @@
 layout: post
 title:  "Nerd-sniped by beatboxers"
 date:   2023-03-06 09:00:00 -0800
+thumbnail: "/assets/20230306beatbox-nerdsnipe/thumbnail.png"
 categories: blog
 ---
 **TLDR: If you scored 25th in the first round of wildcard solos, it’s still mathematically possible for you to make it to GBB (Top 11 overall), but impossible for you to get 1st place overall (after the 2 rounds of wildcards). If your first round was at least as good as 24th, 1st place overall is possible. No comments about probability… yet.**
