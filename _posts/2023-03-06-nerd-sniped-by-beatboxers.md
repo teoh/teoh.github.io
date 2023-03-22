@@ -17,7 +17,7 @@ Here’s how GBB usually works:
 1. Beatboxers submit a wildcard (i.e. an entry video) before some deadline. 
 2. A team of judges evaluate each video based on things like originality, musicality, execution, etc.
 3. Beatboxers get a score for the video they sent, based on the judging.
-4. Some people get (reasonably) upset about the ranking, and I hold back the urge to tell everyone that the only acceptable ranking is the one where all my favourites are on top. (Actually, why not try [predictive optimization](https://predictive-optimization.cs.princeton.edu/)? 🤣)
+4. Some people get (reasonably) upset about the ranking, and I hold back the urge to tell everyone that the only acceptable ranking is the one where my favourites are on top. (Actually, why not try [predictive optimization](https://predictive-optimization.cs.princeton.edu/)? 🤣)
 5. The top ranked beatboxers (usually ≈8) go to GBB to compete! 
 
 ## With a twist
@@ -64,13 +64,13 @@ Here’s a small table for an example:
 
 For solos, we really just care about the top 25 beatboxers, since they’re the only ones who submit a second wildcard. 
 
-If you came last (i.e. 25th place) in the first round, do you still have a chance to make it to GBB? **In other words: if you placed 25th in Round 1, is it possible to score well enough in Round 2, so that your average places you in the Top 11 over all?** 
+If you came 25th in the first round, do you still have a chance to make it to GBB? **In other words: if you placed 25th in Round 1, is it possible to score well enough in Round 2, so that your average places you in the Top 11 over all?** 
 
 **TLDR: yes.**
 
-❌ **Case study 1: Everyone’s performance (including yours) is exactly the same between Rounds 1 and 2**
+##### ❌ **Case study 1: Everyone’s performance (including yours) is exactly the same between Rounds 1 and 2**
 
-This one’s pretty self-explanatory. Let’s see what else could happen to you, based on what happens in Round 2.
+This one’s pretty self-explanatory. 
 <figure>
     <img src="/assets/20230306beatbox-nerdsnipe/0002-noChange.png" alt="Everyone performs the same between Rounds, so your position remains the same." style="max-width: 40%; height: auto;">
     <figcaption style="color: #555; font-style: italic;">
@@ -78,13 +78,11 @@ This one’s pretty self-explanatory. Let’s see what else could happen to you,
     </figcaption>
 </figure>
 
-❌ **Case study 2: You comes 1st in Round 2, but everyone else is relatively the same**
+Let’s see what else could happen to you, based on what happens in Round 2.
 
-By “relatively the same”, I mean that `a` scores 2nd in Round 2, `b` scores 3rd, and so on.
+##### ❌ **Case study 2: You comes 1st in Round 2, but everyone else is relatively the same**
 
-Your final score is 13, and so is the final rank, so you don’t make it 😟. 
-
-We can also see that your **best possible final score** after Round 2 is 13. This happens when you place 1st in Round 2. With this best possible score, was there any hope for you to make top 11 to begin with, provided that others place in **just the right (wrong) way**? Yes! 
+By “relatively the same”, I mean that `a` scores 2nd in Round 2, `b` scores 3rd, and so on. Your final score is 14, and so is the final rank, so you don’t make it 😟. 
 
 <figure>
     <img src="/assets/20230306beatbox-nerdsnipe/0003-1stRound2.png" alt="You placed 1st in Round 2, but didn’t make it to the top 11 overall." style="max-width: 40%; height: auto;">
@@ -93,7 +91,9 @@ We can also see that your **best possible final score** after Round 2 is 13. Thi
     </figcaption>
 </figure>
 
-✅ **Case study 3: You place 1st in Round 2, and folks `k` to `x` have a bad day.** 
+We can also see that your **best possible final score** after Round 2 is 13. This happens when you place 1st in Round 2. With this best possible score, was there any hope for you to make top 11 to begin with, provided that others place in **just the right (wrong) way**? Yes! 
+
+##### ✅ **Case study 3: You place 1st in Round 2, and folks `k` to `x` have a bad day.** 
 
 For you to place top 11 overall, it depends on everyone performing in a very specific way during Round 2:
 
