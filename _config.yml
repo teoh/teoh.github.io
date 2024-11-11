@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: teoh.github.io
+title: mteoh.com
 author: Mathew Teoh
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Machine learning engineer and data scientist. Also Canadian. I work on systems that help
-  people find things. 
+  people find things.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://teoh.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://mteoh.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 footer_icons:
   - username: teoh
