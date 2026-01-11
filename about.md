@@ -6,12 +6,16 @@ permalink: /about/
 
 Thank you for visiting my website.
 
-# 🔎 Who am I? 
-My name is Mathew, and I work on search algorithms at LinkedIn, as a Machine Learning Engineer. I am based in the San Francisco Bay Area. 
+# 🔎 Who am I?
+My name is Mathew, and I work as an ML Engineer at Apple on Siri's geo searching capabilities. I am based in the San Francisco Bay Area.
 
 Prior to that:
 
 <table style="border-collapse: collapse;">
+  <tr>
+    <td nowrap style="padding-right: 20px; padding-bottom: 10px; vertical-align: top;">2021 - 2025</td>
+    <td style="padding-bottom: 10px;">I worked at LinkedIn on their retrieval and ranking algorithms for their largest search vertical, People Search. My most significant contributions include: building multi-objective optimization, getting semantic search capabilities to its first public release, and defining the early work for agentic worflows at LinkedIn.</td>
+  </tr>
   <tr>
     <td nowrap style="padding-right: 20px; padding-bottom: 10px; vertical-align: top;">2018 - 2021</td>
     <td style="padding-bottom: 10px;">I was building real-time NLP systems at brain.ai, where I played a key role bringing their natural language interface from prototype to a first public release on the App Store.</td>
