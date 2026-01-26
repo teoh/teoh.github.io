@@ -93,17 +93,17 @@ I found the diagram below to be helpful in visualizing how LLMs look on the insi
 
 ![LLM Architecture Comparison](/assets/20260125-tiny-proof/llm-architecture-comparison.png)
 
-If you came here for an explanation of where logits come from, I'm going to make some generalizations about LLMs. LLMs take as input a sequence of tokens (which represents some text), and predicts the next token that should follow. To accomplish this, most of the open source models follow a similar pattern:
+If you came here for an explanation of where logits come from, I'm going to make some generalizations about LLMs. LLMs take as input a sequence of tokens (which represents some text), and predict the next token that's likely to follow. To accomplish this, most of the open source models follow a similar pattern:
 1. From input tokens, get their embeddings
 2. Go through several rounds of the following
 	1. Some type of attention mechanism
 	2. Normalization
 	3. Feedforward layer
-   (Optionally: skip connections, positional embeddings, and other optimizations)
+   (Optionally: skip-connections, positional embeddings, and other optimizations)
 3. More normalization
 4. Linear layer
 
-Qwen2 (from the Tiny LLM course), even though not mentioned in the blog above, follows the same pattern above.
+Qwen2 (from the Tiny LLM course), even though not mentioned in the blog above, follows the same pattern.
 
 The output of step (4) includes logits $$\vec{z}$$, an $$n$$-dimensional vector ($$n$$ is the number of tokens in our vocabulary). Each component $$z_i$$ is an unnormalized ($$z_i\in[-\infty,\infty]$$) value; higher values correspond to tokens that are predicted to be more likely next in the sequence of text.
 
