@@ -7,7 +7,7 @@ categories: blog
 
 I never stop learning the same lesson, because I keep forgetting it: don’t debug while you’re tired.
 
-**TLDR: I spent an hour in dependency hell only to realize that my version of Ruby was old and needed a version bump.**
+**TLDR: I spent an hour in dependency hell only to realize that my version of Ruby was old and needed a <span class="margin-comment">version bump<span class="comment-text">This is what happens when you don't document your setup steps!</span></span>.**
 
 ## What did I waste my hour on?
 
