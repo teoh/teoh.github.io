@@ -5,6 +5,8 @@ date:   2026-01-25 09:00:00 -0800
 categories: blog
 ---
 
+In this post, I'll show you a tiny proof I used to convince myself I was using an API correctly.
+
 <style>
 p, li, td, th {
   text-align: left;
@@ -15,7 +17,6 @@ img {
 }
 </style>
 
-In this post, I'll show you a tiny proof I used to convince myself I was using an API correctly.
 
 While working through [Tiny LLM - LLM Serving in a Week](https://skyzh.github.io/tiny-llm/){:target="_blank"}, I ran into the following question:
 > If a sampling API accepts logits, is it OK to pass in log-probabilities instead?
